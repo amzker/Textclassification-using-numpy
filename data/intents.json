@@ -1,0 +1,92 @@
+[
+ {
+   "intents": {
+      "tag": "greeting",
+      "patterns": [
+         "hi",
+         "how are you",
+         "is anyone there?",
+         "hello",
+         "hey",
+         ""
+      ],
+      "responses": [
+         "Hello! Good to see you!",
+         "Hi there, how can I help?",
+         "Hey genius, what's up?"
+      ]
+   }
+},
+ {
+   "intents": {
+      "tag": "stop",
+      "patterns": [
+         "cya",
+         "see you later",
+         "goodbye",
+         "sleep",
+         "have a good day",
+         "bye"
+      ],
+      "responses": [
+         "See you soon pal...",
+         "Goodbye! Have a nice day.",
+         ""
+      ]
+   }
+},
+ {
+   "intents": {
+      "tag": "search",
+      "patterns": [
+         "how to make csv file in python",
+         "code",
+         "make bluetooth connection using python",
+         "read json file in pandas",
+         "how to say hello world in python",
+         "python"
+      ],
+      "responses": [
+         "Finding codes",
+         "yeah thats why i am design ",
+         "yeah yeah doing it "
+      ]
+   }
+},
+ {
+   "intents": {
+      "tag": "clipboard",
+      "patterns": [
+         "search this image from my clipboard",
+         "search this error from my clipboard",
+         "google this image from my clipboard",
+         "google this error from my clipboard",
+         "",
+         ""
+      ],
+      "responses": [
+         "Searching brother wait",
+         "yeah ok ",
+         "cmon dude, alright googling"
+      ]
+   }
+},
+ {
+   "intents": {
+      "tag": "screenshot",
+      "patterns": [
+         "read my screen",
+         "grab my screen",
+         "read my screen and open it ",
+         "capture my screen",
+         "take screenshot ",
+         "screenshot"
+      ],
+      "responses": [
+         "taking screenshot but your screen aint that interesting",
+         "ok taking screenshot",
+         ""
+      ]
+   }
+}
+]
