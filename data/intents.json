@@ -8,12 +8,13 @@
          "is anyone there?",
          "hello",
          "hey",
-         ""
-      ],
-      "responses": [
+         "are you ok?",
          "Hello! Good to see you!",
-         "Hi there, how can I help?",
-         "Hey genius, what's up?"
+         "are you there",
+         "hello ",
+         "hi there",
+         "say hi ",
+         "say hi to everyone"
       ]
    }
 },
@@ -26,12 +27,13 @@
          "goodbye",
          "sleep",
          "have a good day",
-         "bye"
-      ],
-      "responses": [
+         "bye",
          "See you soon pal...",
          "Goodbye! Have a nice day.",
-         ""
+         "go sleep",
+         "shutdown yourself",
+         "turn off all modules",
+         "your work is done"
       ]
    }
 },
@@ -40,16 +42,17 @@
       "tag": "search",
       "patterns": [
          "how to make csv file in python",
-         "code",
+         "how to take screenshot in python",
          "make bluetooth connection using python",
          "read json file in pandas",
          "how to say hello world in python",
-         "python"
-      ],
-      "responses": [
-         "Finding codes",
-         "yeah thats why i am design ",
-         "yeah yeah doing it "
+         "python",
+         "find me this program",
+         "how to make program",
+         "how to ",
+         "javascript",
+         "android",
+         "code"
       ]
    }
 },
@@ -61,13 +64,14 @@
          "search this error from my clipboard",
          "google this image from my clipboard",
          "google this error from my clipboard",
-         "",
-         ""
-      ],
-      "responses": [
-         "Searching brother wait",
-         "yeah ok ",
-         "cmon dude, alright googling"
+         "find this error from my clipboard",
+         "copy my clipboard",
+         "read my clipboard",
+         "can you read my clipboard",
+         "search this image from my clipboard",
+         "what is this error",
+         "identify this",
+         "what is this image"
       ]
    }
 },
@@ -75,17 +79,37 @@
    "intents": {
       "tag": "screenshot",
       "patterns": [
-         "read my screen",
+         "take screen",
          "grab my screen",
-         "read my screen and open it ",
+         "capture my screen and open it",
          "capture my screen",
          "take screenshot ",
-         "screenshot"
-      ],
-      "responses": [
-         "taking screenshot but your screen aint that interesting",
-         "ok taking screenshot",
-         ""
+         "screenshot",
+         "take screenshort ",
+         "take screen short",
+         "grab my screen",
+         "take screenshot and open it",
+         "capture screen and open it",
+         "capture this"
+      ]
+   }
+},
+ {
+   "intents": {
+      "tag": "google",
+      "patterns": [
+         "google how to do this",
+         "google it please",
+         "google it ",
+         "find it on google",
+         "can you google it ",
+         "search it on google",
+         "find me this on google",
+         "google this for me",
+         "search in browser ",
+         "well google this",
+         "google it man",
+         "please google it"
       ]
    }
 }
